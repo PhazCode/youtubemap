@@ -1,0 +1,3 @@
+[submodule "youtubemap.github.io"]
+	path = youtubemap.github.io
+	url = git@github.com:phazcode/youtubemap.github.io.git
