@@ -9,7 +9,7 @@
 {{ $vtitle := index $dataJ "title"}}
 {{ $chan_url := index $dataJ "author_url" }}
 
-<div class="videoline" onclick="changevid({{$vid}}, {{$vtitle}}, {{$chan}}, {{$chanlogo}}, {{$desc}})">
+<div class="videoline" onclick="changevid('{{$vid}}', '{{$vtitle}}', '{{$chan}}', '{{$chanlogo}}', '{{$desc}}')">
   <div class="chanlogo">
     <img class="chanlogo_img" src="{{$chanlogo}}" style="margin:0" />
   </div>
