@@ -6,7 +6,6 @@ baseURL = "https://youtubemap.github.io/"
 languageCode = "fr-fr"
 title = "Youtube Map"
 googleAnalytics = ""
-publishDir = "youtubemap.github.io"
 
 [languages]
   [languages.fr]
