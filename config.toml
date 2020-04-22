@@ -2,7 +2,6 @@ theme = "hugo-theme-learn"
 DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 copyright = "Everything is mine"
-baseURL = "https://youtubemap.netlify.app/"
 languageCode = "fr-fr"
 title = "Youtube Map"
 googleAnalytics = ""
