@@ -1,0 +1,31 @@
+
+
+{{ $vid := .Get 1}}
+{{ $chan := .Get 0}}
+{{ $desc := .Get 2 }}
+{{ $chanlogo := index .Site.Data.chanlogos $chan}}
+{{ $dataJ := getJSON "https://youtube.com/oembed?url=http://youtu.be/" $vid }}
+{{ $vimg := index $dataJ "thumbnail_url"}}
+{{ $vtitle := index $dataJ "title"}}
+{{ $chan_url := index $dataJ "author_url" }}
+
+<div class="videoline" onclick="changevid({{$vid}}, {{$vtitle}}, {{$chan}}, {{$chanlogo}}, {{$desc}})">
+  <div class="chanlogo">
+    <img class="chanlogo_img" src="{{$chanlogo}}" style="margin:0" />
+  </div>
+<div class="chan_name"><a href={{$chan_url}} class="chanlink" style="color:slategrey;text-decoration:none">{{ $chan }}</a></div>
+<div class="vid_desc"> {{ $desc }} </div>
+
+<div class="vidlogo">
+<div class="imgdiv seen" style="background-image: url({{$vimg}});"> 
+<div class="opaque {{$vid}}"><div class="check"><i class="fas fa-check read-icon"></i></div></div>
+</div>
+</div> 
+<div class="vidtitle"> {{$vtitle}}</div>
+</div>
+<script>
+if(window.localStorage.getItem("{{$vid}}") == null) {
+  hides = document.getElementsByClassName("{{$vid}}");
+  hides[hides.length-1].style.display="none";
+  }
+</script>

@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ partial "iframe.html" . }}
+
+
+<div id="right_content" style="width:50%;padding-right:10px;">
+  {{ .Content }}
+  {{ range .Pages }}
+  <h5><a href='{{ .Permalink }}'> {{ .Title }}</a></h5>
+    {{ .Content }}
+    <br/>
+    {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

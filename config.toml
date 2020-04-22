@@ -1,0 +1,27 @@
+theme = "hugo-theme-learn"
+DefaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+copyright = "Everything is mine"
+
+[languages]
+  [languages.fr]
+      languageName = "Français"
+      title = "Carte Youtube"
+      weight = 1
+  [languages.en]
+    languageName = "English"
+    title = "Youtube Map"
+    weight = 2
+
+# Change the default theme to be use when building the site with Hugo
+[params]
+themeVariant = "red"
+showVisitedLinks = true
+disableBreadcrumb = false
+disableShortcutsTitle = true
+disableNextPrev = false
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+  

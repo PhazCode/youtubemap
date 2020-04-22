@@ -1,0 +1,37 @@
+<div id="left_content" style="float:right;width:50%;">
+  <div id="left_sticky">
+    <div style="position:relative;padding-top:56.25%;">
+    <iframe id="frame" class="youtube-player" type="text/html" src="" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(rgb(250, 250, 250), rgb(245, 245, 245));border-radius:2px;"></iframe></div>
+
+      <div id="description">
+
+          <div id="pvidtitle">Choose video from playlist</div>
+          <div id="pchanlogo"><img id="pchanlogo_img" src="" style="margin-top:0;border-radius:20px;" /></div>
+        <div id="pchan_name"></div>
+        <div id="pvid_desc"></div>
+        
+        </div>
+</div>
+</div>
+
+<script>
+  $(document).ready(function(){
+  $("#left_sticky").sticky({topSpacing:50, zIndex:1000});
+});
+  var e_mainFrame = document.getElementById('frame');
+  var e_title = document.getElementById('pvidtitle');
+  var e_logo = document.getElementById('pchanlogo_img');
+  var e_desc = document.getElementById('pvid_desc');
+  var e_channame = document.getElementById('pchan_name');
+
+  function changevid(newvid, newtitle, newchan, newlogo, newdesc) {
+  e_mainFrame.src = "https://www.youtube.com/embed/" + newvid+"?autoplay=1";
+  e_title.innerText = newtitle;
+  e_desc.innerText = newdesc;
+  e_channame.innerText = newchan;
+  e_logo.src = newlogo;
+  window.localStorage.setItem(newvid, 1);
+}
+
+</script>
