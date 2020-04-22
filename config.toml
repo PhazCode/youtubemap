@@ -2,6 +2,11 @@ theme = "hugo-theme-learn"
 DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 copyright = "Everything is mine"
+baseURL = "https://youtubemap.github.io/"
+languageCode = "fr-fr"
+title = "Youtube Map"
+googleAnalytics = ""
+publishDir = "youtubemap.github.io"
 
 [languages]
   [languages.fr]
@@ -24,4 +29,4 @@ disableNextPrev = false
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
-  
+
