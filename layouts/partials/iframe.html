@@ -1,4 +1,4 @@
-<div id="left_content" style="float:right;width:50%;">
+<div id="left_content" style="float:right;width:60%;">
   <div id="left_sticky">
     <div style="position:relative;padding-top:56.25%;">
     <iframe id="frame" class="youtube-player" type="text/html" src="" frameborder="0" allowfullscreen
@@ -10,6 +10,7 @@
           <div id="pchanlogo"><img id="pchanlogo_img" src="" style="margin-top:0;border-radius:20px;" /></div>
         <div id="pchan_name"></div>
         <div id="pvid_desc"></div>
+        <br><br><p id="extr" style="display:none;font-size:small;font-style:italic;float:left;">(Extrait de description)</p>
         
         </div>
 </div>
@@ -24,13 +25,16 @@
   var e_logo = document.getElementById('pchanlogo_img');
   var e_desc = document.getElementById('pvid_desc');
   var e_channame = document.getElementById('pchan_name');
+  var e_extr = document.getElementById('extr');
+
 
   function changevid(newvid, newtitle, newchan, newlogo, newdesc) {
   e_mainFrame.src = "https://www.youtube.com/embed/" + newvid+"?autoplay=1";
   e_title.innerText = newtitle;
-  e_desc.innerText = newdesc;
+  e_desc.innerHTML = newdesc + '';
   e_channame.innerText = newchan;
   e_logo.src = newlogo;
+  e_extr.style.display='block';
   window.localStorage.setItem(newvid, 1);
 }
 

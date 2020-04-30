@@ -1,4 +1,0 @@
----
-type: "playlist"
-title: "Sciences"
----

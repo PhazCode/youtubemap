@@ -1,0 +1,17 @@
+---
+type: "playlist"
+title: "Nucléaire"
+---
+
+
+{{< yt "Le Réveilleur" 0tlx_JJkHWc "Radioactivité naturelle et exposition aux différentes sources de radioactivité." "Dans cette vidéo, je vous parle de la radioactivité. On fait un petit point sur ce phénomène physique découvert il y a plus d'un siècle. Cela permet de se rendre compte que la radioactivité existe naturellement et qu'on est tous exposé à des rayonnements ionisants. Non seulement, on ingère et respire des radionucléides (ce qui nous rend techniquement radioactif) mais on est également exposé au rayonnement issu de la décroissance radioactif des radionucléides primordiaux présents dans le sol et au rayonnement cosmique. L'exposition à ces sources naturelles est bien supérieure à l'exposition aux rejets des centrales nucléaires, aux résidus des essais militaires et aux retombées des accidents. Certaines pratiques médicales constituent l'immense majorité de l'exposition (volontaire) à des sources artificielles de radioactivité." >}}
+
+{{< yt "Le Réveilleur" utyT8Z4qEaA "Impacts sanitaires réels de quelques catastrophes nucléaires." "Mesure des rayonnement (4:19) <br>Effets Déterministes (7:48)<br>Effets Stochastiques (14:39)<br>Impact sanitaires des Bombes d’Hiroshima et Nagasaki (18:58)<br>Connaissances sur les doses inférieurs à 100mSv (26:41)<br>Impacts sanitaires : Tchernobyl (33:53)<br>Impacts sanitaires : Fukushima (43:42)<br>Conclusion (50:17)" >}}
+
+{{< yt "Le Réveilleur" smGve9f6kpQ "Résumé: Impacts sanitaires réels de quelques catastrophes nucléaires." "Résumé de la vidéo précédente sur les impacts sanitaires du nucléaire." >}}
+
+{{< yt "Le Réveilleur" uIXEnRB7TXc "Ressources mondiales en uranium, prix et extraction, enrichissement et surgénération." "Bienvenue dans cette vidéo où je vous parle d'abord des ressources ultimes d'uranium, de quelques considérations sur le prix de cette ressource et des ressources non conventionnelles. On voit ensuite comment (et par qui) l'uranium est extrait. J'explique aussi la fission nucléaire et l'incroyable densité énergétique de l'uranium avant d'aborder l'enrichissement. Je finis en parlant de la surgénération avant de conclure." >}}
+
+{{< yt "Le Réveilleur" HMystmGbctw "Fonctionnement des centrales nucléaires, sûreté, durée de vie et entretien." "Dans cette vidéo, je vous parle du fonctionnement des centrales nucléaires et, plus précisément, des réacteurs à eau pressurisée puisque c'est la technologie dominante dans le monde et la seule exploitée en France. Après une explication du fonctionnement, on s'intéresse plus précisément à l'évacuation de la chaleur et aux besoins en eau (13:35), ce qui m'amène à parler des effets des canicules (16:56). Je parle ensuite des rejets des centrales en fonctionnement normal et notamment du tritium (20:08). J'aborde ensuite un sujet peu évoqué: la cogénération nucléaire, donc la possibilité de produire de la chaleur avec le nucléaire (24:53). Enfin, je vous parle des émissions de dioxyde de carbone (28:23), du facteur de charge (30:05), du caractère pilotable du nucléaire (31:40), du taux de retour énergétique (34:35), de la sûreté (et notamment des barrières de confinement) (35:38) pour finir par la durée de vie et l'entretien des centrales nucléaires (37:44)." >}}
+
+{{< yt "Jean-Marc Jancovici" t0Xp6CCte0U "Nucléaire : fonctionnement, déchets, couts, politique." "Partie 6 du cours de Jean-Marc Jancovici à l’École des Mines de Paris en Mai 2019" >}}

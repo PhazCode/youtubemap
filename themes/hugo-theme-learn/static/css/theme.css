@@ -255,8 +255,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     display: block;
 }
 #sidebar ul.topics ul {
-    display: none;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 #sidebar ul.topics ul ul {
     padding-bottom: 0;
@@ -296,19 +295,14 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul li.visited + span {
     margin-right: 16px;
 }
-#sidebar ul li a {
-    display: block;
-    padding: 2px 0;
-}
+
 #sidebar ul li a span {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
     display: block;
 }
-#sidebar ul li > a {
-    padding: 4px 0;
-}
+
 #sidebar ul li.visited > a .read-icon {
     color: #9c6fb6;
     display: inline;

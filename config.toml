@@ -9,11 +9,9 @@ googleAnalytics = ""
 [languages]
   [languages.fr]
       languageName = "Français"
-      title = "Carte Youtube"
       weight = 1
   [languages.en]
     languageName = "English"
-    title = "Youtube Map"
     weight = 2
 
 # Change the default theme to be use when building the site with Hugo
@@ -23,8 +21,16 @@ showVisitedLinks = true
 disableBreadcrumb = false
 disableShortcutsTitle = true
 disableNextPrev = false
+disableToc = true
 
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-list'></i> Liste des chaînes"
+identifier = "channellist"
+url = "/fr/about/"
+weight = 21
 

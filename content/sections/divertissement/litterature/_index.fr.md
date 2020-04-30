@@ -1,0 +1,25 @@
+---
+type: "playlist"
+title: "Littérature"
+---
+
+
+{{< yt "Nota Bene" 4XPTCPWTJAk "De quels faits historiques s'est inspiré George R. R. Martin pour écrire Game of Thrones ?" "Premier épisode de Motion VS History, l'émission qui sépare l'histoire d'une fiction de celle de la réalité ! Dans cet épisode consacré à Game Of Thrones, nous reviendrons sur les inspirations de Georges Martin pour l'écriture de son roman, sur la géographie de l'univers et sa similarité avec le notre et enfin sur le personnage le plus important de Game of Thrones sans qui il n'y aurait pas eu d'intrigue !" >}}
+
+{{< yt "Nota Bene" TmTGyLyA0Ck "Quelles sont les inspirations historiques derrière les fins de saison de Game of Thrones ?" "Deuxième épisode de Motion VS History, l'émission qui sépare l'histoire d'une fiction de celle de la réalité ! Dans cet épisode consacré à Game Of Thrones, nous reviendrons sur les inspirations historiques de Georges Martin et plus particulièrement pour les évènements de fin de saison (dans la série TV)." >}}
+
+{{< yt "Nota Bene" KMrvjaAl0Ps "De quoi s'est inspiré George R. R. Martin pour créer le château des Eyriés ? " "Georges R.R. Martin se serait-il inspiré d'un vrai château quand il a imaginé les Eyriés dans Game Of Thrones ? On va voir ça ensemble dans ce nouvel épisode Motion VS History de Nota Bene et on en profitera au passage pour faire un petit point sur les prisons au Moyen Âge !" >}}
+
+{{< yt "Nota Bene" 7L7bZLjSDcU "La religion dans Game of Thrones est-elle crédible ?" "On dit souvent que l'univers de Georges R.R. Martin est médiévalement crédible sur bien des aspects...et pourtant ! Ne se serait-il pas planté en beauté sur la religion ? Si le but d'une fiction n'est pas de reconstituer la réalité, ça serait bien trop chiant, nous allons voir dans cet épisode qu'il existe quelques lacunes dans la religion de Game of Thrones et que Martin, peut être conscient de cela, a corrigé le tir en cours de route ! Anciens dieux, nouveaux dieux, foi des septs, grand moineau, foi militante...c'est parti pour les inspirations historiques de la religion dans Game of Thrones !" >}}
+
+{{< yt "Nota Bene" UxpXG7PP__c "La marche de Cersei est-elle inspirée de faits réels ?" "S'il y a bien un épisode qui retourne le bide dans la série Game of Thrones, c'est bien celui de la marche de la honte de Cersei ! Condamnée à traverser nue la ville sous les crachats et les projectiles en tout genre du public, on a beau de pas aimer Cersei, on a tout de même de la peine pour elle ! Et si je vous disais que ce châtiment est en fait inspiré de fait réel ? Froid dans le dos hein ? Allez, je vous emmène du côté des inspirations historiques de Game of Thrones !" >}}
+
+{{< yt "Nota Bene" 7BCs9rQp0ag "Quelles inspirations historiques pour la Garde de nuit dans Game of Thrones ?" "Quand un groupe de voleurs/assassins/désœuvré devient l'un des ordres les plus badass de Game of Thrones, ça intrigue un poil... Et si Georges Martin avait une nouvelle fois puisé dans l'Histoire l'inspiration pour créer la garde de nuit ? Légion étrangère, ordre des templiers...les similitudes sont étonnantes ! Une occasion pour revenir également sur la mort de John Snow et sa référence plus qu'évidente à celle de César !" >}}
+
+{{< yt "Nota Bene" go1i3XNa6yM "Quelles inspirations historiques pour Khal Drogo dans Game of Thrones ?" "Quel image du barbare nous renvoie donc Khal Drogo ? Si le parrallèle avec Gengis Khan ou Attila est tentant, est ce qu'on ne serait pas là dans un pur cliché historique ? On revient ensemble sur les inspirations qui ont poussé Georges Martin à imaginer les dothrakis de Game of Thrones !" >}}
+
+{{< yt "Nota Bene" WFcT2Wqfwvo "Les fer-nés de Game of Thrones sont-ils inspirés des Vikings ?" "Georges Martin s’est inspiré de bien des choses quand il a créé l’univers de Game of Thrones. Les fer-nés sont ainsi les parfaits représentants de l’imaginaire viking et profitent de la moindre occasion pour sortir leurs bateaux et partir en raid. Une belle occasion de revenir sur ces marins/guerriers et de dégommer quelques clichés au passage !" >}}
+
+{{< yt "Nota Bene" VjNLUolHcN4 "Quelles inspirations historiques pour Brienne dans Game of Thrones ?" "Quand on jette un oeil à Game of Thrones, on se rend rapidement compte d'un truc : il fait pas bon d'être un mec dans cet univers sans pitié ! Georges Martin a laissé beaucoup de place aux personnages féminins forts et il serait dommage de se priver de faire quelques parrallèles historiques avec des femmes bien badass qui ont réellement existé au Moyen Âge !" >}}
+
+{{< yt "Nota Bene" BTgQ5t4-7SQ "Quelles inspirations historiques dans Harry Potter ?" "Et si J.K. Rowling s'était inspirée de l'Histoire et de la Mythologie pour construire son univers ? A travers cet épisode, nous reviendrons sur les parallèles à tisser avec le roi Arthur, la mythologie grecque ou encore les diverses inspirations littéraires. Nous plongerons également au cœur de la 2nd guerre mondiale et vous découvrirez une nouvelle grille de lecture de votre saga préférée !" >}}

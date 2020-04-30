@@ -1,0 +1,9 @@
+
+{{ $chan := .Get 0}}
+{{ $chanlogo :=  index .Site.Data.chanlogos $chan | safeHTML}}
+
+<div class = "chanel" style="margin-left:35%;margin-bottom:15px;width:400px;height:68px;font-size:20px;color:#777;position:relative;top:-55px;">
+  <div class="chanimg" style="width:68px;float:left;">
+  <img src="{{$chanlogo}}" style="width:68px;border:4px solid #ccc;border-radius:50px;margin:0;display:inline" /></div>
+  <div style="padding-left:80px;padding-top:15px;">{{$chan}}</div>
+</div>

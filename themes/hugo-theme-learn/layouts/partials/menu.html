@@ -15,11 +15,11 @@
     <ul class="topics">
 
         {{if eq .Site.Params.ordersectionsby "title"}}  
-          {{range .Site.Home.Sections.ByTitle}}
+          {{range (index .Site.Home.Sections "sections").ByTitle}}
           {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
           {{end}}
         {{else}}
-          {{range .Site.Home.Sections.ByWeight}}
+          {{range (.Site.GetPage "/sections").Sections.ByWeight}}
           {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
           {{end}}
         {{end}} 
@@ -30,6 +30,10 @@
       <section id="shortcuts">
         <h3>{{ if not $disableShortcutsTitle}}{{ T "Shortcuts-Title"}}{{ end }}</h3>
         <ul>
+          <li> 
+            <a class="padding" href="#" onclick="changepage()"><i class='fas fa-bookmark'></i> Page au Hasard</a>
+        </li>
+
           {{ range sort . "Weight"}}
               <li> 
                   {{.Pre}}<a class="padding" href="{{.URL | absLangURL }}">{{safeHTML .Name}}</a>{{.Post}}
@@ -41,7 +45,6 @@
 
     {{ if or .Site.IsMultiLingual $showvisitedlinks }}
     <section id="prefooter">
-      <hr/>
       <ul>
       {{ if and .Site.IsMultiLingual (not .Site.Params.DisableLanguageSwitchingButton)}}
         <li>
@@ -99,20 +102,18 @@
  {{with .sect}}
   {{if and .IsSection ((not .Params.hidden) or $.showhidden)}}
     {{safeHTML .Params.head}}
-    <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item 
-        {{if .IsAncestor $currentNode }}parent{{end}}
+    <!-- old {{if .IsAncestor $currentNode }}parent{{end}}
         {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}
-        {{if .Params.alwaysopen}}parent{{end}}
-        ">
-      <a href="{{.RelPermalink}}">
+        {{if .Params.alwaysopen}}parent{{end}} dropdown-->
+    <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dropdown">
+      <a href="{{.RelPermalink}}" class="dropdown-toggle" data-hover="dropdown" aria-expanded="false">
           {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
-          {{ if $showvisitedlinks}}
-            <i class="fas fa-check read-icon"></i>
-          {{ end }}
-      </a>
-      {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
+          {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
+          {{ if ne $numberOfPages 0 }}
+      <span class="caret"></span> {{end}}
+      </a>    
       {{ if ne $numberOfPages 0 }}
-        <ul>
+        <ul class="dropdown-menu">
           {{ $currentNode.Scratch.Set "pages" .Pages }}
           {{ if .Sections}}
             {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
@@ -135,14 +136,14 @@
           {{ end }}
         {{end}}
         </ul>
-      {{ end }}        
+      {{ end }}
     </li>
   {{else}}
     {{ if not .Params.Hidden }}
-      <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}">
+      <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dropdown dd-item {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}">
         <a href="{{ .RelPermalink}}">
         {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
-        {{ if $showvisitedlinks}}<i class="fas fa-check read-icon"></i>{{end}}
+        
         </a>
     </li>
      {{ end }}

@@ -2,10 +2,10 @@
 
 {{ $vid := .Get 1}}
 {{ $chan := .Get 0}}
-{{ $desc := .Get 2 }}
-{{ $chanlogo := index .Site.Data.chanlogos $chan}}
+{{ $question := .Get 2}}
+{{ $desc := .Get 3  | safeHTML}}
+{{ $chanlogo :=  index .Site.Data.chanlogos $chan | safeHTML}}
 {{ $dataJ := getJSON "https://youtube.com/oembed?url=http://youtu.be/" $vid }}
-{{ $vimg := index $dataJ "thumbnail_url"}}
 {{ $vtitle := index $dataJ "title"}}
 {{ $chan_url := index $dataJ "author_url" }}
 
@@ -14,10 +14,10 @@
     <img class="chanlogo_img" src="{{$chanlogo}}" style="margin:0" />
   </div>
 <div class="chan_name"><a href={{$chan_url}} class="chanlink" style="color:slategrey;text-decoration:none">{{ $chan }}</a></div>
-<div class="vid_desc"> {{ $desc }} </div>
+<div class="vid_desc"> {{ $question }} </div>
 
 <div class="vidlogo">
-<div class="imgdiv seen" style="background-image: url({{$vimg}});"> 
+<div class="imgdiv seen" style="background-image: url(https://i.ytimg.com/vi/{{$vid}}/hqdefault.jpg);"> 
 <div class="opaque {{$vid}}"><div class="check"><i class="fas fa-check read-icon"></i></div></div>
 </div>
 </div> 
